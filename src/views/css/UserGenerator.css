@@ -1,0 +1,54 @@
+.usergen-content {
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.usergen-hd-container {
+    padding: 16px;
+    border-bottom: 1px solid black;
+}
+
+.usergen-sec-container { border-bottom: 1px solid gray; padding: 24px}
+.usergen-sec-title {
+    padding: 0px 0 10px;
+}
+
+.usergen-btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.usergen-btn {
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 0;
+    width: 225px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+    .usergen-btn:hover {
+         opacity: 0.7;
+    }
+
+.usergen-user-cards-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.usergen-show-more {
+    color: gray;
+    cursor: pointer;
+    display: inline;
+    transition: 0.3s;
+}
+    .usergen-show-more:hover {
+        opacity: 0.7;
+    }

@@ -1,0 +1,34 @@
+.user-card-container {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    width: 450px;
+    margin: 15px auto;
+}
+.user-card-pic {
+    width: 150px;
+    height: 150px;
+}
+
+.user-card-info {
+    padding-left: 20px;
+    text-align: left;
+}
+    .user-card-info > .name {
+        font-size: 20px;
+    }
+    .user-card-info > .username {
+        font-weight: lighter;
+        font-size: 14px;
+    }
+    .user-card-info > .city {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .user-card-info > .email {
+        font-size: 14px;
+    }
+    .user-card-info > .cell {
+        font-size: 14px;
+    }
+    
