@@ -25,7 +25,7 @@
     height: 10%;
     position: relative;
 }
-.selectgrid-row:nth-child(10) > .selectgrid-cell {
+.selectgrid-row:last-child > .selectgrid-cell {
     border-bottom: 1px solid black;
 }
 
